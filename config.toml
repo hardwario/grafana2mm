@@ -1,0 +1,44 @@
+# This is your timezone
+timezone = "Europe/Prague"
+
+# This is your Mattermost base URL
+url = "https://your-mattermost-host:port"
+
+# This is your Mattermost login
+login = "your-email@address.com"
+
+# This is your Mattermost password
+password = "your-super-secret-password"
+
+# Mattermost channel configuration - multiple of these can be defined
+[[channels]]
+
+# Mattermost channel ID (you can find it under View Info)
+id = "your-grafana-channel-id"
+
+# Example panel-channel binding - multiple of these can be defined
+[[channels.panels]]
+
+# Mattermost message attached to the panel picture (you can use Markdown format)
+message = "#### Your Fancy Message"
+
+# This URL and other parameters can be obtained via Panel > Share > Embed in the IFRAME path
+url = "https://your-grafana-host/render/d-solo/_OHG6MiGz/cooper-sigfox"
+
+# You have to get this token in Grafana organization configuration (search for API Keys)
+token = "your-super-secret-token"
+
+# This is Grafana organization ID - see "url" for details how to get it
+organization = 2
+
+# This is Grafana panel ID - see "url" for details how to get it
+panel = 17
+
+# This is a list of data labels to be put in the panel
+labels = ["label-1", "label-2"]
+
+# This is the resulting picture width
+width = 2000
+
+# This is the resulting picture height
+height = 1000

@@ -1,12 +1,12 @@
 # grafana2mm - Grafana to Mattermost
 
-This repository contains Python application for capturing **Grafana panel(s)** from the previous day and sending them to **Mattermost channel(s)** with an optional message. Everything is configured via a TOML configuration file. You can define multiple Mattermost channels and Grafana panels to be fetched/fed.
+This repository contains Python 3 application for capturing **Grafana panel(s)** from the previous day and sending them to **Mattermost channel(s)** with an optional message. Everything is configured via a TOML configuration file. You can define multiple Mattermost channels and Grafana panels to be fetched/fed.
 
 The application is typically deployed via Docker. The Docker image is built by the user (`Dockerfile` is included).
 
 This is the example output when the application has run:
 
-**TODO** Mattermost screenshot
+![Mattermost screenshot with Grafana panels](screenshot.png)
 
 Enjoy proactive sharing of Grafana panels with your friends!
 
@@ -76,7 +76,7 @@ Activate the virtual environment:
 
     $ source .venv/bin/activate
 
-Install all dependencies:
+Install all required dependencies:
 
     $ pip install -r requirements.txt
 
