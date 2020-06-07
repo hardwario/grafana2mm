@@ -13,6 +13,7 @@ Enjoy proactive sharing of Grafana panels with your friends!
 
 ## Requirements
 
+* Git
 * Docker
 * Grafana
 * Mattermost
@@ -20,11 +21,9 @@ Enjoy proactive sharing of Grafana panels with your friends!
 
 ## Download
 
-Get the latest released version from [**Releases**](https://github.com/hardwario/grafana2mm/releases) and unpack it:
+Clone this repository:
 
-    $ wget -c https://github.com/hardwario/grafana2mm/archive/vX.Y.Z.tar.gz -O - | tar -xz
-
-> Note: Replace `X.Y.Z` in the commands above with the latest release version.
+    $ git clone https://github.com/hardwario/grafana2mm.git
 
 
 ## Build
