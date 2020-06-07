@@ -22,10 +22,9 @@ Enjoy proactive sharing of Grafana panels with your friends!
 
 Get the latest released version from [**Releases**](https://github.com/hardwario/grafana2mm/releases) and unpack it:
 
-    $ wget https://github.com/hardwario/grafana2mm/archive/vX.Y.Z.tar.gz
-    $ tar xzf grafana2mm-vX.Y.Z.tar.gz
+    $ wget -c https://github.com/hardwario/grafana2mm/archive/vX.Y.Z.tar.gz -O - | tar -xz
 
-> Note: Replace `vX.Y.Z` in the commands above with the latest release version.
+> Note: Replace `X.Y.Z` in the commands above with the latest release version.
 
 
 ## Build
